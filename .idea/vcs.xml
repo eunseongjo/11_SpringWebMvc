@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/01_lectureSource/chap01-thymeleaf-lecture-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01_lectureSource/chap02-request-mapping-lecture-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01_lectureSource/chap03-handler-method" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01_lectureSource/chap03-handler-method-lecture-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01_lectureSource/chap04-view-resolver-lecture-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01_lectureSource/chap05-exception-handler-lecture-source" vcs="Git" />
+  </component>
+</project>
