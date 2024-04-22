@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const successMessage = `[[${ successMessage }]]`;
+        if(successMessage){
+            alert(successMessage)
+        }
+    </script>
+</head>
+<body>
+    <div th:replace="common/header.html"></div>
+    <table align="center" border="1">
+        <tr>
+            <td>메뉴번호</td>
+            <td>메뉴이름</td>
+            <td>메뉴가격</td>
+            <td>메뉴카테고리</td>
+            <td>판매상태</td>
+        </tr>
+        <tr th:each="menu : ${ menuList }">
+            <td th:text="${ menu.code }"></td>
+            <td th:text="${ menu.name }"></td>
+            <td th:text="${ menu.price }"></td>
+            <td th:text="${ menu.categoryCode }"></td>
+            <td th:text="${ menu.orderableStatus }"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
