@@ -1,0 +1,12 @@
+GET http://localhost:8080/valid/users/5
+
+###
+POST http://localhost:8080/valid/users
+Content-Type:
+
+{
+ "id": "idTest",
+ "pw": "pwdTest",
+ "name": "코알라",
+ "enrollDate": "2024-05-24"
+}

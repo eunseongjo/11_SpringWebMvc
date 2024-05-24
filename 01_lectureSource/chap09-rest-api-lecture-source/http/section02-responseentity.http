@@ -1,0 +1,30 @@
+### 전체 회원 조회
+GET http://localhost:8080/entity/users
+
+### 회원 상세 조회
+GET http://localhost:8080/entity/users/4
+
+### 신규 회원 등록(insert)
+POST http://localhost:8080/entity/users
+Content-Type: application/json
+
+{
+"id": "userTest",
+"pw": "passTest",
+"name": "호랑이",
+"enrollDate": "2023-05-23"
+}
+
+### 기존 회원 수정(update)
+PUT http://localhost:8080/entity/user/4
+Content-Type: application/json
+
+{
+ "id": "modifyTest",
+ "pw": "modifyTest",
+ "name": "진화한 호랑이"
+}
+
+### 기존 회원 삭제(delete)
+DELETE http://localhost:8080/entity/users/4
+
